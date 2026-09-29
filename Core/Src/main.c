@@ -108,7 +108,9 @@ int main(void)
 //   OLED_ShowNum(48,4,6,1,16, 0);//正相显示1位8X16数字“6”
 //   OLED_ShowNum(48,7,77,2,12, 1);//反相显示2位6X8数字“77”
 //   OLED_DrawBMP(90,0,122, 4,BMP1,0);//正相显示图片BMP1
-   OLED_DrawBMP(0,0,127, 40,BMP2,0);
+   OLED_DrawBMP(0,0,128,6,BMP2,0);
+   OLED_ShowCHinese(50,6,3,0);//正相显示汉字“前”
+   OLED_ShowCHinese(66,6,4,0);//正相显示汉字“进”
 
 //   OLED_HorizontalShift(0x26);//全屏水平向右滚动播放
 
